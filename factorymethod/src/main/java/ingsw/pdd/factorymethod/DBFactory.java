@@ -6,7 +6,8 @@ import ingsw.pdd.factorymethod.impl.OracleDBAdapter;
 import ingsw.pdd.factorymethod.util.PropertiesUtil;
 
 public class DBFactory {
-	private static final String DB_FACTORY_PROPERTY_URL = "META-INF/DBFactory.properties";
+	//private static final String DB_FACTORY_PROPERTY_URL = "META-INF/DBFactory.properties";
+	private static final String DB_FACTORY_PROPERTY_URL = "DBFactory.properties";
 	private static final String DEFAULT_DB_CLASS_PROP = "defaultDBClass";
 
 	public static IDBAdapter getDBadapter(DBType dbType) {

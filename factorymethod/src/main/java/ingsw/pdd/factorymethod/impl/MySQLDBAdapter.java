@@ -9,7 +9,8 @@ import ingsw.pdd.factorymethod.util.PropertiesUtil;
 
 public class MySQLDBAdapter implements IDBAdapter {
 
-	private static final String DB_PROPERTIES = "META-INF/DBMySQL.properties";
+	//private static final String DB_PROPERTIES = "META-INF/DBMySQL.properties";
+	private static final String DB_PROPERTIES = "DBMySQL.properties";
 
 	// Propiedades de los archivos properties
 	private static final String DB_NAME_PROP = "dbname";
@@ -35,9 +36,7 @@ public class MySQLDBAdapter implements IDBAdapter {
 			String connectionString = createConnectionString();
 			Connection connection = DriverManager.getConnection(connectionString);
 
-			System.out.println("Connection class ==> "
-
-					+ connection.getClass().getName());
+			System.out.println("Connection class ==> " + connection.getClass().getName());
 			return connection;
 
 		} catch (Exception e) {

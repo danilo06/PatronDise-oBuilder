@@ -10,7 +10,8 @@ import ingsw.pdd.factorymethod.util.PropertiesUtil;
 
 public class OracleDBAdapter implements IDBAdapter {
 
-	private static final String DB_PROPERTIES = "META-INF/DBOracle.properties";
+	//private static final String DB_PROPERTIES = "META-INF/DBOracle.properties";
+	private static final String DB_PROPERTIES = "DBOracle.properties";
 
 	private static final String DB_SERVICE_PROP = "service";
 	private static final String DB_HOST_PROP = "host";
