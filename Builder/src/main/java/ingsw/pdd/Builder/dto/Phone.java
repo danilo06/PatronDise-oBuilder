@@ -13,7 +13,7 @@ public class Phone {
 		this.ext = ext;
 		this.phoneType = phoneType;
 	}
-	/** Getters, setters */
+	
 	@Override
 	public String toString() {
 		return "Phone{" + "phoneNumber=" + phoneNumber + ", ext=" + ext + ", phoneType=" + phoneType + '}';
