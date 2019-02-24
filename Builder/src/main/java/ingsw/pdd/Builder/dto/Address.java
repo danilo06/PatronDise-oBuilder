@@ -16,4 +16,13 @@ package ingsw.pdd.Builder.dto;
 			this.cp = cp;
 			}
 		/** Getters, setters y toString */
+
+		/* (non-Javadoc)
+		 * @see java.lang.Object#toString()
+		 */
+		@Override
+		public String toString() {
+			return "Address [address=" + address + ", city=" + city + ", country=" + country + ", cp=" + cp + "]";
+		}
+		
 }
