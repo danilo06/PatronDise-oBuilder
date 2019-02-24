@@ -29,8 +29,6 @@ public class MySQLDBAdapter implements IDBAdapter {
 		}
 	}
 
-	@Override
-
 	public Connection getConnection() {
 		try {
 
