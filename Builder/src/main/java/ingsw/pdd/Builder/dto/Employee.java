@@ -30,6 +30,7 @@ public class Employee {
 	
 	public Employee() {
 	}
+	
 	public static class EmployeeBuilder implements IBuilder<Employee>{
 
 		private String name;
@@ -81,9 +82,8 @@ public class Employee {
 			return new Employee(name, age, gender, adress, phones, contacs);
 		}
 	}
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
+	
+	
 	@Override
 	public String toString() {
 		return "Employee [name=" + name + ", age=" + age + ", gender=" + gender + ", adress=" + adress + ", phones="
@@ -93,6 +93,3 @@ public class Employee {
 	
 	
 }
-
-
-
