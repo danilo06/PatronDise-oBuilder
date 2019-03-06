@@ -9,7 +9,7 @@ public class SingletonMain {
 		System.out.println(singletonA);
 		System.out.println(singletonB);
 		System.out.println("Misma referencia ==> " + (singletonA == singletonB));
-
+		//https://github.com/oscarjb1/IntroduccionPatronesDiseno
 		singletonA.setAppName("Singleton Pattern");
 		singletonB.setAppVersion("1.0x");
 
