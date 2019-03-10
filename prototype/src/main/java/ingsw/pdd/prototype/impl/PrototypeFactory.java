@@ -10,7 +10,7 @@ public class PrototypeFactory {
 		return prototypes.get(prototypeName).deepClone();
 	}
 
-	public static void addPrototype(String prototypeName, IPrototype prototype) {
+	public static void addPrototype(String prototypeName, IPrototype<?> prototype) {
 		prototypes.put(prototypeName, prototype);
 	}
 }
