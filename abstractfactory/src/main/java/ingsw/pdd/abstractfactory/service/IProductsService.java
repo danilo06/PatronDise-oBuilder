@@ -1,5 +1,5 @@
 package ingsw.pdd.abstractfactory.service;
 
-public class IProductsService {
-
+public interface IProductsService {
+	public String[] getProducts();
 }

@@ -1,5 +1,13 @@
 package ingsw.pdd.abstractfactory.ws;
 
-public class ProductServiceWSImpl {
+import ingsw.pdd.abstractfactory.service.IProductsService;
 
+public class ProductServiceWSImpl implements IProductsService {
+
+	private static final String[] PRODUCTS = new String[] { "Refresco", "Jugo", "Fruta" };
+
+	public String[] getProducts() {
+		System.out.println("WebServices");
+		return PRODUCTS;
+	}
 }

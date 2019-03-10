@@ -1,5 +1,13 @@
 package ingsw.pdd.abstractfactory.rest;
 
-public class ProductServiceRestImpl {
+import ingsw.pdd.abstractfactory.service.IProductsService;
 
+public class ProductServiceRestImpl implements IProductsService {
+	private static final String[] PRODUCTS = new String[] { "Teclado", "Mouse", "Monitor" };
+
+	//@Override -> Por eclipse
+	public String[] getProducts() {
+		System.out.println("RestFul");
+		return PRODUCTS;
+	}
 }
