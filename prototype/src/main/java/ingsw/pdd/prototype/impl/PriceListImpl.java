@@ -44,6 +44,10 @@ public class PriceListImpl implements IPrototype<PriceListImpl> {
 		clone.setProducts(cloneProducts);
 		return clone;
 	}
+	
+	public void addProductItem(ProductItem item){
+        this.products.add(item);
+    }
 
 	@Override
 	public String toString() {

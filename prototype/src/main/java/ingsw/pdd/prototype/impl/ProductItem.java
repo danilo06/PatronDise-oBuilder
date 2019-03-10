@@ -26,6 +26,7 @@ public class ProductItem implements IPrototype<ProductItem> {
 	public String toString() {
 		return "ProductItem{" + "name=" + name + ", price=" + price + '}';
 	}
+	
 
 	public String getName() {
 		return name;
