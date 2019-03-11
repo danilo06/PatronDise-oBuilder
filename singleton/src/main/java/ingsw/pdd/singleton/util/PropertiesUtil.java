@@ -3,9 +3,6 @@ package ingsw.pdd.singleton.util;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * @author oblancarte
- */
 public class PropertiesUtil {
     public static Properties loadProperty(String propertiesURL){
         try {

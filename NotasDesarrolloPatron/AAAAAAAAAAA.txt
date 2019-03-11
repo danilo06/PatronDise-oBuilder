@@ -1,0 +1,24 @@
+___________________________________________________________________________________________
+PATRON:
+ESTUDIANTE: Danilo Andres Beleño Villafañe
+CODIGO: 11161612411
+___________________________________________________________________________________________
+PROBLEMAS EN EL DESARROLLO:
+
+XXXX
+___________________________________________________________________________________________
+PRINCIPIOS SOLID MAS NOTORIOS: 
+
+»S Single responsibility:
+
+
+»O Open/Closed:
+
+
+»L Liskov substitution:
+
+
+»I Interface segregation:
+
+
+»D Dependecy inversion:

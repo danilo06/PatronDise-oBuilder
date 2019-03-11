@@ -1,0 +1,21 @@
+___________________________________________________________________________________________
+PATRON:Prototype
+ESTUDIANTE: Danilo Andres Beleño Villafañe
+CODIGO: 11161612411
+___________________________________________________________________________________________
+PROBLEMAS EN EL DESARROLLO:
+N/A
+___________________________________________________________________________________________
+PRINCIPIOS SOLID MAS NOTORIOS: 
+
+»S Single responsibility:
+Definitivamente, clada clase realiza o cuenta solo con las operaciones o atributos especificos para los que esta diseñada. 
+
+»O Open/Closed:
+El codigo esta diseñado, de tal forma que podemos agregar nuevos tipos de prototipo, sin necesidad de modoficar toda la estructura.
+
+»L Liskov substitution:
+
+»I Interface segregation:
+
+»D Dependecy inversion:

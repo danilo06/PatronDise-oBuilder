@@ -1,0 +1,12 @@
+- Principios SOLID mas evidenciados
+
+Single Responsibility Principle
+Las clases, solo cumplen con las funciones que en verdad le corresponden, esto en todo el proyecto.
+Por ejemplo, el adaptador de MySql no tiene metodos para tambien conectar con la DB de Oracle. 
+
+Liskov subtitution principle
+En el modelo, siempre que es posible se "implementa" otra clase, las funciones 
+
+
+- Problemas al realizar el taller
+El mayor problema al realizar el proyecto fue lograr probar el codigo con las bases de datos. Con respecto a la estructura decidi modificarlo un poco, para usar Maven.
