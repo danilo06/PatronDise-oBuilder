@@ -1,15 +1,15 @@
 ___________________________________________________________________________________________
-PATRON:Singleton
+PATRON:Abstract Factory
 ESTUDIANTE: Danilo Andres Beleño Villafañe
 CODIGO: 11161612411
 ___________________________________________________________________________________________
 PROBLEMAS EN EL DESARROLLO:
-N/A
+Copiar tantas clases xd, del resto no señor. 
 ___________________________________________________________________________________________
 PRINCIPIOS SOLID MAS NOTORIOS: 
 
 »S Single responsibility:
-Realmente, es algo simple, pero si es necesario tomar un patron, seria este, pues cada clase realiza estrictamente la funcion para la que fue diseñada. 
+
 
 »O Open/Closed:
 
