@@ -15,5 +15,4 @@ public abstract class AutoDecorador implements Vendible {
 	public void setVendible(Vendible vendible) {
 		this.vendible = vendible;
 	}
-
 }
