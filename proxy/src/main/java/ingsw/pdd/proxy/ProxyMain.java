@@ -7,8 +7,8 @@ public class ProxyMain {
 
 	public static void main(String[] args) {
 		String user = "pepe_perez";
-		//String password = "111";
-		String password = "1234";
+		String password = "111";
+		//String password = "1234";
 		int process = 1;
 		IProcessEjecutor processEjecutor = ServiceFactory.createProcessEjecutor();
 		try {
